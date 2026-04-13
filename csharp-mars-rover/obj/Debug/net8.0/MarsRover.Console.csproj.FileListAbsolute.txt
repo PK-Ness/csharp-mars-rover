@@ -12,3 +12,4 @@ C:\Users\sampa\Documents\Northcoders\Week-6\csharp-mars-rover1\csharp-mars-rover
 C:\Users\sampa\Documents\Northcoders\Week-6\csharp-mars-rover1\csharp-mars-rover\obj\Debug\net8.0\MarsRover.Console.pdb
 C:\Users\sampa\Documents\Northcoders\Week-6\csharp-mars-rover1\csharp-mars-rover\obj\Debug\net8.0\MarsRover.Console.genruntimeconfig.cache
 C:\Users\sampa\Documents\Northcoders\Week-6\csharp-mars-rover1\csharp-mars-rover\obj\Debug\net8.0\ref\MarsRover.Console.dll
+C:\Users\sampa\Documents\Northcoders\Week-6\csharp-mars-rover1\csharp-mars-rover\obj\Debug\net8.0\MarsRover.Console.sourcelink.json
