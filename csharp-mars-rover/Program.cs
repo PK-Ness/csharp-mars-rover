@@ -5,6 +5,7 @@
         static void Main(string[] args)
         {
             Rover.Landing(false);
+
             Rover.RoverMove();
         }
     }

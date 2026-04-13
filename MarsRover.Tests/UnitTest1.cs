@@ -12,5 +12,13 @@ namespace MarsRover.Tests
         {
             Assert.That(true, Is.True);
         }
+
+        [Test]
+        public void Rover_First_Action_Is_Move()
+        {
+         //Arrange
+         Rover rover = new Rover;
+
+        }
     }
 }
