@@ -1,0 +1,14 @@
+C:\Users\sampa\Documents\Northcoders\Week-6\csharp-mars-rover1\csharp-mars-rover\bin\Debug\net8.0\MarsRover.Console.exe
+C:\Users\sampa\Documents\Northcoders\Week-6\csharp-mars-rover1\csharp-mars-rover\bin\Debug\net8.0\MarsRover.Console.deps.json
+C:\Users\sampa\Documents\Northcoders\Week-6\csharp-mars-rover1\csharp-mars-rover\bin\Debug\net8.0\MarsRover.Console.runtimeconfig.json
+C:\Users\sampa\Documents\Northcoders\Week-6\csharp-mars-rover1\csharp-mars-rover\bin\Debug\net8.0\MarsRover.Console.dll
+C:\Users\sampa\Documents\Northcoders\Week-6\csharp-mars-rover1\csharp-mars-rover\bin\Debug\net8.0\MarsRover.Console.pdb
+C:\Users\sampa\Documents\Northcoders\Week-6\csharp-mars-rover1\csharp-mars-rover\obj\Debug\net8.0\MarsRover.Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sampa\Documents\Northcoders\Week-6\csharp-mars-rover1\csharp-mars-rover\obj\Debug\net8.0\MarsRover.Console.AssemblyInfoInputs.cache
+C:\Users\sampa\Documents\Northcoders\Week-6\csharp-mars-rover1\csharp-mars-rover\obj\Debug\net8.0\MarsRover.Console.AssemblyInfo.cs
+C:\Users\sampa\Documents\Northcoders\Week-6\csharp-mars-rover1\csharp-mars-rover\obj\Debug\net8.0\MarsRover.Console.csproj.CoreCompileInputs.cache
+C:\Users\sampa\Documents\Northcoders\Week-6\csharp-mars-rover1\csharp-mars-rover\obj\Debug\net8.0\MarsRover.Console.dll
+C:\Users\sampa\Documents\Northcoders\Week-6\csharp-mars-rover1\csharp-mars-rover\obj\Debug\net8.0\refint\MarsRover.Console.dll
+C:\Users\sampa\Documents\Northcoders\Week-6\csharp-mars-rover1\csharp-mars-rover\obj\Debug\net8.0\MarsRover.Console.pdb
+C:\Users\sampa\Documents\Northcoders\Week-6\csharp-mars-rover1\csharp-mars-rover\obj\Debug\net8.0\MarsRover.Console.genruntimeconfig.cache
+C:\Users\sampa\Documents\Northcoders\Week-6\csharp-mars-rover1\csharp-mars-rover\obj\Debug\net8.0\ref\MarsRover.Console.dll
