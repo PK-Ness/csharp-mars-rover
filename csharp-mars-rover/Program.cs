@@ -4,9 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Rover.Landing(false);
+            RoverPosition.Landing(false);
 
-            Rover.RoverMove();
+            RoverPosition.RoverMove();
         }
     }
 }
