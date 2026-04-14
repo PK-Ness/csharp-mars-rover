@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace csharp_mars_rover
 {
-    internal enum Instructions
+    public enum Instructions
     {
         L,
         R,

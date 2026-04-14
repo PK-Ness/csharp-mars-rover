@@ -6,7 +6,7 @@
         {
             RoverPosition.Landing(false);
 
-            RoverPosition.RoverMove();
+            Plateau.SetPlateauCoordinates(5, 5, CardinalDirections.North);
         }
     }
 }

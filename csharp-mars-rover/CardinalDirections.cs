@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace csharp_mars_rover
 {
-    internal enum CardinalDirections
+    public enum CardinalDirections
     {
         North,
         East,

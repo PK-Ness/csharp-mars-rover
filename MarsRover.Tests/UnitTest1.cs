@@ -26,5 +26,18 @@ namespace MarsRover.Tests
             //Assert
             Assert.That(result, Is.EqualTo(("LR")));
         }
+
+        [Test]
+        public void Testing_Plateau_Setup()
+        {
+            //Arrange
+            int x = 5;
+            int y = 5;
+            //Act
+            Plateau.SetPlateauCoordinates(x, y, CardinalDirections.North);
+            //Assert
+            Assert.That(Plateau.X, Is.EqualTo(x));
+            Assert.That(Plateau.Y, Is.EqualTo(x));
+        }
     }
 }

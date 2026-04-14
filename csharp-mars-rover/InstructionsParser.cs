@@ -16,6 +16,10 @@ namespace csharp_mars_rover
                     .IsDefined(typeof(Instructions), c
                     .ToString()))
                     .ToArray());
+            if (result.Length == 0)
+            {
+                Console.WriteLine("No valid instructions found in the input.");
+            }
 
             return result;
         }
