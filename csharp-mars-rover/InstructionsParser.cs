@@ -6,23 +6,31 @@ using System.Threading.Tasks;
 
 namespace csharp_mars_rover
 {
-    public class InstructionsParser
+    internal class InstructionsParser
     {
-        
-        public string ParseInstructions(string instructions)
-        {
-             string result = new string(instructions.
-                    Where(c => Enum
-                    .IsDefined(typeof(Instructions), c
-                    .ToString()))
-                    .ToArray());
-            if (result.Length == 0)
-            {
-                Console.WriteLine("No valid instructions found in the input.");
-            }
 
-            return result;
+        public static string ParseInstructions(string instructions)
+        {
+            string result = new string(instructions.
+                       Where(c => Enum
+                       .IsDefined(typeof(Instructions), c
+                       .ToString()))
+                       .ToArray());
+
+
+            Console.WriteLine("Enter your instructions for rover movement (L, R, M): ");
+            result = Console.ReadLine();
+            foreach (char c in result)
+            {
+                if (result.Contains(c))
+                {
+                    Console.WriteLine($"Valid instruction found: {c}");
+                }
+
+             
+            }
+            return "Your commands are " + result;
         }
-     }
-        
-  }
+           
+    }
+}
