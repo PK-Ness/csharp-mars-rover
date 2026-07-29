@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace csharp_mars_rover
 {
-    internal class InstructionsParser
+    public class InstructionsParser
     {
 
         public static string ParseInstructions(string instructions)
@@ -17,19 +17,20 @@ namespace csharp_mars_rover
                        .ToString()))
                        .ToArray());
 
-
+            string[] finalCommands = Array.Empty<string>();
             Console.WriteLine("Enter your instructions for rover movement (L, R, M): ");
-            result = Console.ReadLine();
-            foreach (char c in result)
+            string command = Console.ReadLine();
+            foreach (char c in command)
             {
-                if (result.Contains(c))
+                if (c == 'L' || c == 'R' || c == 'M' || c == 'l' || c == 'r' || c == 'm')
                 {
                     Console.WriteLine($"Valid instruction found: {c}");
+                    finalCommands = finalCommands.Append(c.ToString()).ToArray();
                 }
-
-             
+                
             }
-            return "Your commands are " + result;
+            Console.WriteLine("Your commands are " + string.Join("", finalCommands).ToUpper());
+            return "";
         }
            
     }
