@@ -16,15 +16,14 @@ namespace MarsRover.Tests
         }
        
         [Test]
-        public void Testing_Parser_To_Filter_Commands_From_Input ()
+        public void Testing_Parser_To_Filter_Invalid_Commands_From_Input ()
         {
            //Arrange
-            InstructionsParser parser = new InstructionsParser();
-
+           string input = "LRMLLRRSSDDAS";
             //Act
-            string result = parser.ParseInstructions("LRVVV");
+            string result = InstructionsParser.ParseInstructions(input);
             //Assert
-            Assert.That(result, Is.EqualTo(("LR")));
+            Assert.That(result, Is.EqualTo("LRMLLRR"));
         }
 
     }

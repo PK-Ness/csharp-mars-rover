@@ -17,20 +17,26 @@ namespace csharp_mars_rover
                        .ToString()))
                        .ToArray());
 
-            string[] finalCommands = Array.Empty<string>();
-            Console.WriteLine("Enter your instructions for rover movement (L, R, M): ");
-            string command = Console.ReadLine();
-            foreach (char c in command)
-            {
-                if (c == 'L' || c == 'R' || c == 'M' || c == 'l' || c == 'r' || c == 'm')
-                {
-                    Console.WriteLine($"Valid instruction found: {c}");
-                    finalCommands = finalCommands.Append(c.ToString()).ToArray();
-                }
-                
-            }
-            Console.WriteLine("Your commands are " + string.Join("", finalCommands).ToUpper());
-            return "";
+            //string[] finalCommands = Array.Empty<string>();
+
+            //Console.WriteLine("Enter your instructions for rover movement (L, R, M): ");
+            //string command = Console.ReadLine();
+            //foreach (char c in command)
+            //{
+            //    if (c == 'L' || c == 'R' || c == 'M' || c == 'l' || c == 'r' || c == 'm')
+            //    {
+            //        Console.WriteLine($"Valid instruction found: {c}");
+            //        finalCommands = finalCommands.Append(c.ToString()).ToArray();
+
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Your input does not contain valid instructions. Please enter only L, R, or M.");
+            //    }
+            //   }
+            //Console.WriteLine("Your commands are " + string.Join("", finalCommands).ToUpper());
+            //return string.Join("", finalCommands).ToUpper();
+            return result;
         }
            
     }

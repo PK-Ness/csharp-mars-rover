@@ -11,16 +11,12 @@
           "MarsRover.Console": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.8.0",
           "NUnit": "3.14.0",
-          "NUnit.Analyzers": "3.9.0",
-          "NUnit3TestAdapter": "4.5.0",
-          "Shouldly": "4.3.0",
-          "coverlet.collector": "6.0.0"
+          "Shouldly": "4.3.0"
         },
         "runtime": {
           "MarsRover.Tests.dll": {}
         }
       },
-      "coverlet.collector/6.0.0": {},
       "DiffEngine/11.3.0": {
         "dependencies": {
           "EmptyFiles": "4.4.0",
@@ -55,11 +51,9 @@
           "Microsoft.TestPlatform.TestHost": "17.8.0"
         }
       },
-      "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.TestPlatform.ObjectModel/17.8.0": {
         "dependencies": {
-          "NuGet.Frameworks": "6.5.0",
-          "System.Reflection.Metadata": "1.6.0"
+          "NuGet.Frameworks": "6.5.0"
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.TestPlatform.CoreUtilities.dll": {
@@ -303,11 +297,6 @@
           }
         }
       },
-      "NETStandard.Library/2.0.0": {
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0"
-        }
-      },
       "Newtonsoft.Json/13.0.1": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
@@ -325,9 +314,6 @@
         }
       },
       "NUnit/3.14.0": {
-        "dependencies": {
-          "NETStandard.Library": "2.0.0"
-        },
         "runtime": {
           "lib/netstandard2.0/nunit.framework.dll": {
             "assemblyVersion": "3.14.0.0",
@@ -335,8 +321,6 @@
           }
         }
       },
-      "NUnit.Analyzers/3.9.0": {},
-      "NUnit3TestAdapter/4.5.0": {},
       "Shouldly/4.3.0": {
         "dependencies": {
           "DiffEngine": "11.3.0",
@@ -376,7 +360,6 @@
           }
         }
       },
-      "System.Reflection.Metadata/1.6.0": {},
       "MarsRover.Console/1.0.0": {
         "runtime": {
           "MarsRover.Console.dll": {
@@ -392,13 +375,6 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "coverlet.collector/6.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-tW3lsNS+dAEII6YGUX/VMoJjBS1QvsxqJeqLaJXub08y1FSjasFPtQ4UBUsudE9PNrzLjooClMsPtY2cZLdXpQ==",
-      "path": "coverlet.collector/6.0.0",
-      "hashPath": "coverlet.collector.6.0.0.nupkg.sha512"
     },
     "DiffEngine/11.3.0": {
       "type": "package",
@@ -428,13 +404,6 @@
       "path": "microsoft.net.test.sdk/17.8.0",
       "hashPath": "microsoft.net.test.sdk.17.8.0.nupkg.sha512"
     },
-    "Microsoft.NETCore.Platforms/1.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
-      "path": "microsoft.netcore.platforms/1.1.0",
-      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
-    },
     "Microsoft.TestPlatform.ObjectModel/17.8.0": {
       "type": "package",
       "serviceable": true,
@@ -448,13 +417,6 @@
       "sha512": "sha512-9ivcl/7SGRmOT0YYrHQGohWiT5YCpkmy/UEzldfVisLm6QxbLaK3FAJqZXI34rnRLmqqDCeMQxKINwmKwAPiDw==",
       "path": "microsoft.testplatform.testhost/17.8.0",
       "hashPath": "microsoft.testplatform.testhost.17.8.0.nupkg.sha512"
-    },
-    "NETStandard.Library/2.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
-      "path": "netstandard.library/2.0.0",
-      "hashPath": "netstandard.library.2.0.0.nupkg.sha512"
     },
     "Newtonsoft.Json/13.0.1": {
       "type": "package",
@@ -477,20 +439,6 @@
       "path": "nunit/3.14.0",
       "hashPath": "nunit.3.14.0.nupkg.sha512"
     },
-    "NUnit.Analyzers/3.9.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-8bGAEljlBnzR+uU8oGQhTVKnbgBw1Mo71qjVkgzHdvtUkiB5XOIDyjAcS4KUo/j+F2Zv/xBUZRkCWXmejx4bfA==",
-      "path": "nunit.analyzers/3.9.0",
-      "hashPath": "nunit.analyzers.3.9.0.nupkg.sha512"
-    },
-    "NUnit3TestAdapter/4.5.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-s8JpqTe9bI2f49Pfr3dFRfoVSuFQyraTj68c3XXjIS/MRGvvkLnrg6RLqnTjdShX+AdFUCCU/4Xex58AdUfs6A==",
-      "path": "nunit3testadapter/4.5.0",
-      "hashPath": "nunit3testadapter.4.5.0.nupkg.sha512"
-    },
     "Shouldly/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -511,13 +459,6 @@
       "sha512": "sha512-10J1D0h/lioojphfJ4Fuh5ZUThT/xOVHdV9roGBittKKNP2PMjrvibEdbVTGZcPra1399Ja3tqIJLyQrc5Wmhg==",
       "path": "system.management/6.0.1",
       "hashPath": "system.management.6.0.1.nupkg.sha512"
-    },
-    "System.Reflection.Metadata/1.6.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-COC1aiAJjCoA5GBF+QKL2uLqEBew4JsCkQmoHKbN3TlOZKa2fKLz5CpiRQKDz0RsAOEGsVKqOD5bomsXq/4STQ==",
-      "path": "system.reflection.metadata/1.6.0",
-      "hashPath": "system.reflection.metadata.1.6.0.nupkg.sha512"
     },
     "MarsRover.Console/1.0.0": {
       "type": "project",
