@@ -12,6 +12,7 @@ namespace csharp_mars_rover
             Plateau.SetPlateauCoordinates(5, 5, CardinalDirections.North);
 
             InstructionsParser.ParseInstructions(instructions);
+
         }
     }
 }
